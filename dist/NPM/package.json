@@ -1,0 +1,21 @@
+{
+	"name": "@ltd/acorn",
+	"description": "parse (acorn) bundle (rollup) minify (terser) three-in-one",
+	"version": "1.0.0",
+	"license": "LGPL-3.0",
+	"author": "龙腾道 <LongTengDao@LongTengDao.com> (www.LongTengDao.com)",
+	"bugs": "https://GitHub.com/LongTengDao/acorn/issues",
+	"repository": {
+		"type": "git",
+		"url": "https://GitHub.com/LongTengDao/acorn.git"
+	},
+	"dependencies": {
+		"acorn": "8.0.4",
+		"acorn-class-fields": "0.3.7",
+		"acorn-private-class-elements": "0.2.7",
+		"acorn-private-methods": "0.3.3",
+		"acorn-static-class-features": "0.2.4",
+		"rollup": "2.33.3",
+		"terser": "4.8.0"
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"compilerOptions": {
+		"target": "ESNext",
+		"baseUrl": "../node_modules",
+		"paths": {
+			"acorn": [ "./acorn/dist/acorn" ],
+			"rollup": [ "./rollup/dist/rollup" ],
+			"terser": [ "./terser/tools/terser" ]
+		},
+		"strict": true,
+		"noImplicitReturns": true,
+		"noUnusedLocals": true,
+		"noUncheckedIndexedAccess": true
+	}
+}
