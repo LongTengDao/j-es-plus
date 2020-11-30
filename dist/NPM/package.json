@@ -1,13 +1,13 @@
 {
-	"name": "@ltd/acorn",
+	"name": "@ltd/j-es-plus",
 	"description": "parse (acorn) bundle (rollup) minify (terser) three-in-one",
 	"version": "1.0.0",
 	"license": "LGPL-3.0",
 	"author": "龙腾道 <LongTengDao@LongTengDao.com> (www.LongTengDao.com)",
-	"bugs": "https://GitHub.com/LongTengDao/acorn/issues",
+	"bugs": "https://GitHub.com/LongTengDao/j-es-plus/issues",
 	"repository": {
 		"type": "git",
-		"url": "https://GitHub.com/LongTengDao/acorn.git"
+		"url": "https://GitHub.com/LongTengDao/j-es-plus.git"
 	},
 	"dependencies": {
 		"acorn": "8.0.4",

@@ -1,7 +1,7 @@
 'use strict';
 require('@ltd/j-dev')(__dirname+'/..')(async function build ({ build, 龙腾道, get }) {
 	await build({
-		name: 'acorn',
+		name: 'j-es-plus',
 		user: 'LongTengDao@ltd',
 		Auth: 龙腾道,
 		Copy: 'LGPL-3.0',
