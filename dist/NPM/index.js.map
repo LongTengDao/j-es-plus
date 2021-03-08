@@ -9,7 +9,7 @@
 		["version?text","default.ts"],
 	"sourcesContent":
 		[
-			"export default'1.0.0';",
+			"export default'2.0.0';",
 			"import version from './version?text';\n\nimport freeze from '.Object.freeze';\n\nvar Stage4Parser = require('acorn').Parser;\n\nvar Stage3Parser =\n\trequire('acorn-private-methods')(\n\trequire('acorn-static-class-features')(\n\trequire('acorn-class-fields')(\n\tStage4Parser)));\n\nvar parse = function parse (input        , options                                ) {\n\treturn new ( options && options.ecmaVersion===2014 ? Stage3Parser : Stage4Parser )(options, input).parse();\n};\n\nvar Parser = freeze({\n\tparse: parse,\n});\n\nvar AcornStage3 = function AcornStage3 () {\n\treturn Parser;\n};\n\nexport default freeze({\n\tversion: version,\n\tparse: parse,\n\tacornInjectPlugins: freeze([ AcornStage3 ]),\n\trollup: require('rollup').rollup,\n\tminify: require('terser').minify,\n\tget default () { return this; },\n});\n"
 		],
 	"names":

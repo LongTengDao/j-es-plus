@@ -1,7 +1,7 @@
 export = exports;
 declare namespace exports {
 	
-	export const version :'1.0.0';
+	export const version :'2.0.0';
 	
 	export function parse (input :string, options? :Readonly<Options>) :Node;
 	export type Options = {
@@ -20,8 +20,7 @@ declare namespace exports {
 	export type OutputOptions = import('rollup').OutputOptions;
 	export type RollupOutput = import('rollup').RollupOutput;
 	
-	export function minify (files :string | readonly string[] | { readonly [file :string] :string } | Readonly<AST_Node>, options? :Readonly<MinifyOptions>) :MinifyOutput;
-	export type AST_Node = import('terser').AST_Node;
+	export function minify (files :string | readonly string[] | { readonly [file :string] :string }, options? :Readonly<MinifyOptions>) :MinifyOutput;
 	export type MinifyOptions = {
 		[Key in keyof import('terser').MinifyOptions]
 		:Key extends 'ecma'
