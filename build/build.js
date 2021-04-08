@@ -10,13 +10,13 @@ require('@ltd/j-dev')(__dirname+'/..')(async function build ({ build, 龙腾道,
 		NPM: {
 			description: 'parse (acorn) bundle (rollup) minify (terser) three-in-one',
 			dependencies: {
-				'acorn': '8.0.5',
+				'acorn': '8.1.0',
 				'acorn-class-fields': '1.0.0',
 				'acorn-private-class-elements': '1.0.0',
 				'acorn-private-methods': '1.0.0',
 				'acorn-static-class-features': '1.0.0',
-				'rollup': '2.40.0',
-				'terser': '5.6.0',
+				'rollup': '2.43.1',
+				'terser': '5.6.1',
 			},
 		},
 	});
