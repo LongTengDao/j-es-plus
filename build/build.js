@@ -1,5 +1,5 @@
 'use strict';
-require('@ltd/j-dev')(__dirname+'/..')(async function build ({ build, 龙腾道, get }) {
+require('j-dev')(__dirname+'/..')(async function build ({ build, 龙腾道, get }) {
 	await build({
 		name: 'j-es-plus',
 		user: 'LongTengDao@ltd',
@@ -10,14 +10,11 @@ require('@ltd/j-dev')(__dirname+'/..')(async function build ({ build, 龙腾道,
 		NPM: {
 			description: 'parse (acorn) bundle (rollup) minify (terser) three-in-one',
 			dependencies: {
-				'acorn': '8.1.0',
-				'acorn-class-fields': '1.0.0',
-				'acorn-private-class-elements': '1.0.0',
-				'acorn-private-methods': '1.0.0',
-				'acorn-static-class-features': '1.0.0',
-				'rollup': '2.43.1',
-				'terser': '5.6.1',
+				'acorn': '8.5.0',
+				'rollup': '2.57.0',
+				'terser': '5.9.0',
 			},
 		},
+		LICENSE_: true,
 	});
 });
