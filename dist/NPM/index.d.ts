@@ -1,7 +1,7 @@
 export = exports;
 declare namespace exports {
 	
-	export const version :'2.1.0';
+	export const version :'2.2.0';
 	
 	export function parse (input :string, options? :Readonly<Options>) :Node;
 	export type Options = {
